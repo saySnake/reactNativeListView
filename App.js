@@ -6,20 +6,22 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+// import Ionicons from 'react-native-vector-icons/Ionicons';
+
 import {
   StyleSheet,
   View,
   Text,
 } from 'react-native';
 
-type Props={}
+
+type Props ={}
 export default class App extends Component<Props> {
   render() {
     return (
         <View style = {styles.container}>
-        <Text > Welcome to React Native! </Text>
-        </View>
+        <Text> 矢量图标 </Text>
     );
   }
 }
